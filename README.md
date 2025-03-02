@@ -6,7 +6,7 @@ Ce projet contient plusieurs exercices JavaScript pour pratiquer la programmatio
 
 [2. Class et Objet.](#Class-et-Objet)
 
-[3. Mini-Blog Site Web](./blog/README.md)
+[3. Mini-Blog Site Web](./blog/)
 
 #
 
