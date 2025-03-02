@@ -4,6 +4,8 @@
 
 Ce projet met en place un système de blog en JavaScript permettant aux utilisateurs de créer des articles et de les afficher dynamiquement sur une page web. L'application utilise la manipulation du DOM pour gérer les interactions utilisateur et met en œuvre la programmation orientée objet pour structurer les données.
 
+![Preview](./preview.png)
+
 ## 1. Classes Implémentées
 
 **1.1 Classe User**
