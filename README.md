@@ -2,9 +2,9 @@
 
 Ce projet contient plusieurs exercices JavaScript pour pratiquer la programmation orientée objet et la manipulation du DOM.
 
-[1. Objet constructeur/natif et héritage.](#Objet_constructeur/natif_et_héritage)
+[1. Objet constructeur/natif et héritage.](#objet-constructeurnatif-et-héritage)
 
-[2. Class et Objet.](#Class_et_Objet)
+[2. Class et Objet.](#Class-et-Objet)
 
 [3. Mini-Blog Site Web](#Mini-Blog)
 
