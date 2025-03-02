@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Blog</title>
+</head>
+
+<body>
+    <nav class="w-full border-b shadow-md flex justify-between p-5">
+        <div class="flex justify-center items-center">
+            <p class="text-xl font-bold">{
+                CODE
+                <span class="text-violet-700">WALL</span>
+                }
+            </p>
+        </div>
+        <div>
+            <ul class="flex font-bold">
+                <li class="p-3 hover:bg-gray-100 rounded mx-1">My Blogs</li>
+                <li class="p-3 hover:bg-gray-100 rounded mx-1">Login</li>
+                <li class="p-3 hover:bg-gray-100 rounded mx-1">Sign Up</li>
+            </ul>
+        </div>
+    </nav>
+    <main class="mx-15 mt-10">
+        <div class="flex justify-between">
+            <p class="font-bold text-3xl">Your Blog Posts</p>
+            <button type="button" id="show_form_btn"
+                class="focus:outline-none text-white bg-violet-700 hover:bg-violet-800 focus:ring-4 focus:ring-violet-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2">+ 
+                Add new post</button>
+        </div>
+
+        <div class="bg-gray-200 p-4 rounded hidden relative" id="form_section">
+            <button id="hide_form_btn" class="absolute w-[40px] h-[40px] rounded-full hover:bg-gray-400 justify-center flex items-center right-3 top-1 text-2xl">&#x2715;</button>
+            <form action="" class="flex flex-col">
+                <div>
+                    <label for="title" class="block mb-2 font-medium text-gray-900 ">Title :</label>
+                    <input type="text" id="title" class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Title" required />
+                </div>
+                <div class="my-4">
+                    <label for="description" class="block mb-2 font-medium text-gray-900 ">Description :</label>
+                    <textarea type="text" id="description" rows="10" class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Type something..." required ></textarea>
+                </div>
+                <input type="submit" class="w-fit focus:outline-none text-white bg-violet-700 hover:bg-violet-800 focus:ring-4 focus:ring-violet-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2" value="Post">
+            </form>
+        </div>
+        <div id="blogs">
+            
+        </div>
+       
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
